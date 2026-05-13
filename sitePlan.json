@@ -1,0 +1,56 @@
+{
+  "businessName": "So-juicy Interior Hub and More",
+  "industry": "Interior Design & Manufacturing",
+  "tone": "warm, professional, quality-focused",
+  "tagline": "Crafting Beautiful Spaces with Premium Finishings & Furnishings",
+  "sections": [
+    {
+      "id": "hero",
+      "name": "Hero",
+      "copy": "Transform Your Space with So-juicy Interior Hub and More. Premium finishings, bespoke furnishings, and complete interior solutions manufactured to perfection. Serving homes and businesses across Lagos with quality craftsmanship you can trust.",
+      "imagePrompt": "Luxurious modern Nigerian living room interior with elegant custom furniture, beautiful wall finishes, ambient lighting, floor-to-ceiling windows showing Lagos skyline, rich textures, warm golden hour lighting, photorealistic, professional interior photography",
+      "layout": "centered"
+    },
+    {
+      "id": "about",
+      "name": "About Us",
+      "copy": "So-juicy Interior Hub and More is a leading manufacturer of premium interior finishings and furnishings based in the heart of Ibeju Lekki, Lagos. We specialize in creating beautiful, functional spaces through our comprehensive range of interior solutions. From custom furniture manufacturing to expert finishing services, we bring your vision to life with exceptional craftsmanship and attention to detail. Our experienced team combines traditional techniques with modern design trends to deliver interiors that reflect your unique style and meet the highest quality standards. Whether you're furnishing a new home, renovating your office, or completing a commercial project, we provide end-to-end solutions that transform ordinary spaces into extraordinary environments.",
+      "imagePrompt": "Professional Nigerian workshop showing skilled craftsmen manufacturing custom furniture, modern woodworking equipment, organized materials, quality finishes on display, bright natural lighting, clean industrial space, photorealistic documentation style",
+      "layout": "split"
+    },
+    {
+      "id": "services",
+      "name": "Our Services",
+      "copy": "Custom Furniture Manufacturing - Handcrafted pieces tailored to your exact specifications, from bedroom sets and dining furniture to office solutions and storage units. Every piece is built to last with premium materials and expert craftsmanship.\n\nInterior Finishings - Complete finishing services including wall treatments, flooring solutions, ceiling designs, lighting installations, and decorative elements that add character and elegance to any space.\n\nFurnishings & Décor - Curated selection of quality furnishings, soft furnishings, window treatments, and decorative accessories to complete your interior design vision.\n\nSpace Planning & Design Consultation - Professional guidance to maximize your space potential, from initial concept to final installation, ensuring functionality meets aesthetics.\n\nCommercial & Residential Projects - Comprehensive interior solutions for homes, offices, hotels, restaurants, and retail spaces across Lagos and beyond.",
+      "imagePrompt": "Elegant showroom display featuring various custom furniture pieces, beautiful interior finishes, fabric swatches, material samples, modern Nigerian home décor items, well-lit professional photography, organized and inviting atmosphere",
+      "layout": "cards"
+    },
+    {
+      "id": "gallery",
+      "name": "Our Work",
+      "copy": "Explore our portfolio of completed projects showcasing the quality and diversity of our craftsmanship. From contemporary living spaces to classic office interiors, each project reflects our commitment to excellence and our clients' unique vision. We take pride in transforming spaces across Lagos, delivering interiors that combine beauty, functionality, and lasting value.",
+      "imagePrompt": "Collage of stunning Nigerian interior spaces: modern kitchen with custom cabinetry, elegant bedroom with bespoke furniture, sophisticated office with quality finishes, luxury living room, all showing high-end craftsmanship, natural lighting, photorealistic interior photography",
+      "layout": "grid"
+    },
+    {
+      "id": "why-choose",
+      "name": "Why Choose So-juicy",
+      "copy": "Quality Manufacturing - We manufacture our furniture and finishings in-house, ensuring complete quality control and competitive pricing without compromising on excellence.\n\nExpert Craftsmanship - Our skilled team brings years of experience and passion to every project, delivering superior workmanship that stands the test of time.\n\nCustom Solutions - No two spaces are alike. We create bespoke solutions tailored to your specific needs, style preferences, and budget.\n\nComprehensive Service - From initial consultation to final installation, we handle every aspect of your interior project, providing a seamless, stress-free experience.\n\nTrusted by Lagos Residents - Located in the vibrant Ibeju Lekki community, we've built our reputation on reliability, integrity, and customer satisfaction.",
+      "imagePrompt": "Close-up shots of quality craftsmanship: hands working on fine furniture details, premium wood finishes, precise joinery, quality materials, Nigerian artisan at work, professional workshop environment, warm natural lighting, documentary photography style",
+      "layout": "cards"
+    },
+    {
+      "id": "contact",
+      "name": "Visit Our Showroom",
+      "copy": "Ready to transform your space? Visit our showroom to see our quality finishings and furnishings firsthand, discuss your project with our expert team, and discover how So-juicy Interior Hub and More can bring your interior vision to life.\n\nShop 3 Midwestern shopping complex golf course road lakowe lakes Ibeju lekki Lagos State\n\nCall us: 08132265208\n\nOpen Monday to Saturday, 9:00 AM - 6:00 PM\n\nWe serve clients across Lagos State and beyond. Contact us today for a consultation, quote, or to schedule a showroom visit. Let's create something beautiful together.",
+      "imagePrompt": "Inviting storefront of modern Nigerian interior shop at Midwestern shopping complex, professional signage, welcoming entrance, glimpse of showroom interior with furniture displays, late afternoon golden light, Lagos commercial architecture, photorealistic",
+      "layout": "centered"
+    }
+  ],
+  "contact": {
+    "phone": "08132265208",
+    "email": "",
+    "address": "Shop 3 Midwestern shopping complex golf course road lakowe lakes Ibeju lekki Lagos State",
+    "whatsapp": "https://wa.me/2348132265208"
+  }
+}
