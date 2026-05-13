@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>So-juicy Interior Hub and More - Premium Interior Design & Manufacturing Lagos</title>
+    <meta name="description" content="Transform your space with So-juicy Interior Hub and More. Premium finishings, bespoke furnishings, and complete interior solutions manufactured in Lagos.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Nunito+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --color-primary: #0e040c;
+            --color-accent: #ca4379;
+            --color-bg: #FAF5F8;
+            --color-text: #1C0818;
+            --color-surface: #321129;
+            --color-secondary-accent: #bd8c7c;
+            --font-display: 'Cormorant Garamond', serif;
+            --font-body: 'Nunito Sans', sans-serif;
+            --border-radius: 22px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: var(--font-body);
+            color: var(--color-text);
+            background-color: var(--color-bg);
+            line-height: 1.7;
+            overflow-x: hidden;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: var(--font-display);
+            font-weight: 400;
+            line-height: 1.3;
+        }
+
+        h1 {
+            font-size: clamp(2.5rem, 6vw, 4.5rem);
+            font-weight: 600;
+        }
+
+        h2 {
+            font-size: clamp(2rem, 4vw, 3.5rem);
+            margin-bottom: 1.5rem;
+        }
+
+        h3 {
+            font-size: clamp(1.5rem, 3vw, 2rem);
+            margin-bottom: 1rem;
+        }
+
+        section {
+            padding: 80px 5%;
+            animation: fadeUp 0.6s ease forwards;
+        }
+
+        section:nth-child(even) {
+            animation-delay: 0.1s;
+        }
+
+        section:nth-child(odd) {
+            animation-delay: 0.2s;
+        }
+
+        @keyframes fadeUp {
+            from {
+                opacity: 0;
+                transform: translateY(24px);
+            }
+            to {
+                opacity: 1;
+                transform: none;
+            }
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(250, 245, 248, 0.95);
+            backdrop-filter: blur(10px);
+            z-index: 1000;
+            border-bottom: 1px solid rgba(202, 67, 121, 0.1);
+        }
+
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: var(--font-display);
+            font-size: 1.5rem;
+            font-weight: 600;
+            color: var(--color-primary);
+            text-decoration: none;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--color-text);
+            font-weight: 500;
+            transition: color 0.3s ease;
+            font-size: 0.95rem;
+        }
+
+        .nav-links a:hover {
+            color: var(--color-accent);
+        }
+
+        .mobile-menu-btn {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+            gap: 4px;
+        }
+
+        .mobile-menu-btn span {
+            width: 25px;
+            height: 3px;
+            background: var(--color-text);
+            transition: all 0.3s ease;
+            transform-origin: center;
+        }
+
+        .mobile-menu-btn.active span:nth-child(1) {
+            transform: rotate(45deg) translate(6px, 6px);
+        }
+
+        .mobile-menu-btn.active span:nth-child(2) {
+            opacity: 0;
+        }
+
+        .mobile-menu-btn.active span:nth-child(3) {
+            transform: rotate(-45deg) translate(6px, -6px);
+        }
+
+        .mobile-menu {
+            position: fixed;
+            top: 70px;
+            right: -100%;
+            width: 300px;
+            height: calc(100vh - 70px);
+            background: var(--color-bg);
+            box-shadow: -2px 0 10px rgba(0,0,0,0.1);
+            transition: right 0.3s ease;
+            z-index: 999;
+            padding: 2rem;
+        }
+
+        .mobile-menu.active {
+            right: 0;
+        }
+
+        .mobile-menu ul {
+            list-style: none;
+        }
+
+        .mobile-menu ul li {
+            margin-bottom: 1.5rem;
+        }
+
+        .mobile-menu ul a {
+            text-decoration: none;
+            color: var(--color-text);
+            font-size: 1.1rem;
+            font-weight: 500;
+            transition: color 0.3s ease;
+            display: block;
+            padding: 0.5rem 0;
+        }
+
+        .mobile-menu ul a:hover {
+            color: var(--color-accent);
+        }
+
+        #hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            position: relative;
+            padding-top: 120px;
+        }
+
+        .hero-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -2;
+        }
+
+        .hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.55);
+            z-index: -1;
+        }
+
+        .hero-content {
+            max-width: 900px;
+            color: #fff;
+            z-index: 1;
+        }
+
+        .hero-content h1 {
+            margin-bottom: 1.5rem;
+            color: #fff;
+        }
+
+        .hero-content p {
+            font-size: clamp(1rem, 2vw, 1.3rem);
+            margin-bottom: 2rem;
+            line-height: 1.8;
+            font-weight: 300;
+        }
+
+        .btn-primary {
+            display: inline-block;
+            padding: 1rem 2.5rem;
+            background: var(--color-accent);
+            color: #fff;
+            text-decoration: none;
+            border-radius: var(--border-radius);
+            font-weight: 500;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 20px rgba(202, 67, 121, 0.3);
+        }
+
+        .btn-primary:hover {
+            background: #b03969;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 25px rgba(202, 67, 121, 0.4);
+        }
+
+        .split-section {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+        }
+
+        .split-section img {
+            width: 100%;
+            height: 500px;
+            object-fit: cover;
+            border-radius: var(--border-radius);
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+        }
+
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .card {
+            background: #fff;
+            padding: 2rem;
+            border-radius: var(--border-radius);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 30px rgba(202, 67, 121, 0.15);
+        }
+
+        .card h3 {
+            color: var(--color-accent);
+            margin-bottom: 1rem;
+        }
+
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-top: 3rem;
+        }
+
+        .gallery-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: var(--border-radius);
+            height: 350px;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.4s ease;
+        }
+
+        .gallery-item:hover img {
+            transform: scale(1.1);
+        }
+
+        .centered-section {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .contact-info {
+            background: #fff;
+            padding: 3rem;
+            border-radius: var(--border-radius);
+            margin-top: 2rem;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        .contact-info p {
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+
+        .contact-info a {
+            color: var(--color-accent);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .contact-info a:hover {
+            color: var(--color-primary);
+        }
+
+        .whatsapp-float {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 60px;
+            height: 60px;
+            background: #25D366;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
+            z-index: 999;
+            transition: transform 0.3s ease;
+            text-decoration: none;
+        }
+
+        .whatsapp-float:hover {
+            transform: scale(1.1);
+        }
+
+        .whatsapp-float svg {
+            width: 35px;
+            height: 35px;
+            fill: #fff;
+        }
+
+        footer {
+            background: var(--color-surface);
+            color: #fff;
+            text-align: center;
+            padding: 2rem 5%;
+        }
+
+        footer p {
+            opacity: 0.9;
+        }
+
+        @media (max-width: 768px) {
+            .nav-links {
+                display: none;
+            }
+            
+            .mobile-menu-btn {
+                display: flex;
+            }
+
+            section {
+                padding: 48px 5%;
+            }
+
+            .split-section {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+
+            .split-section img {
+                height: 350px;
+            }
+
+            .cards-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .gallery-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .whatsapp-float {
+                bottom: 20px;
+                right: 20px;
+                width: 50px;
+                height: 50px;
+            }
+
+            .whatsapp-float svg {
+                width: 28px;
+                height: 28px;
+            }
+        }
+
+        @media (min-width: 1024px) {
+            section {
+                padding: 80px 5%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <a href="#hero" class="logo">So-juicy Interior Hub</a>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#why-choose">Why Choose Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="mobile-menu">
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#why-choose">Why Choose Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="hero">
+        <img src="https://images.pexels.com/photos/20019416/pexels-photo-20019416.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Luxurious modern interior" class="hero-image">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>So-juicy Interior Hub and More</h1>
+            <p>Crafting Beautiful Spaces with Premium Finishings & Furnishings</p>
+            <p>Transform Your Space with So-juicy Interior Hub and More. Premium finishings, bespoke furnishings, and complete interior solutions manufactured to perfection. Serving homes and businesses across Lagos with quality craftsmanship you can trust.</p>
+            <a href="#contact" class="btn-primary">Get Started</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <div class="split-section">
+                <img src="https://images.pexels.com/photos/33694102/pexels-photo-33694102.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Professional workshop and manufacturing">
+                <div>
+                    <h2>About Us</h2>
+                    <p>So-juicy Interior Hub and More is a leading manufacturer of premium interior finishings and furnishings based in the heart of Ibeju Lekki, Lagos. We specialize in creating beautiful, functional spaces through our comprehensive range of interior solutions. From custom furniture manufacturing to expert finishing services, we bring your vision to life with exceptional craftsmanship and attention to detail.</p>
+                    <p>Our experienced team combines traditional techniques with modern design trends to deliver interiors that reflect your unique style and meet the highest quality standards. Whether you're furnishing a new home, renovating your office, or completing a commercial project, we provide end-to-end solutions that transform ordinary spaces into extraordinary environments.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2 style="text-align: center;">Our Services</h2>
+            <div class="cards-grid">
+                <div class="card">
+                    <h3>Custom Furniture Manufacturing</h3>
+                    <p>Handcrafted pieces tailored to your exact specifications, from bedroom sets and dining furniture to office solutions and storage units. Every piece is built to last with premium materials and expert craftsmanship.</p>
+                </div>
+                <div class="card">
+                    <h3>Interior Finishings</h3>
+                    <p>Complete finishing services including wall treatments, flooring solutions, ceiling designs, lighting installations, and decorative elements that add character and elegance to any space.</p>
+                </div>
+                <div class="card">
+                    <h3>Furnishings & Décor</h3>
+                    <p>Curated selection of quality furnishings, soft furnishings, window treatments, and decorative accessories to complete your interior design vision.</p>
+                </div>
+                <div class="card">
+                    <h3>Space Planning & Design Consultation</h3>
+                    <p>Professional guidance to maximize your space potential, from initial concept to final installation, ensuring functionality meets aesthetics.</p>
+                </div>
+                <div class="card">
+                    <h3>Commercial & Residential Projects</h3>
+                    <p>Comprehensive interior solutions for homes, offices, hotels, restaurants, and retail spaces across Lagos and beyond.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" style="background: #fff;">
+        <div class="container">
+            <h2 style="text-align: center;">Our Work</h2>
+            <p style="text-align: center; max-width: 800px; margin: 0 auto;">Explore our portfolio of completed projects showcasing the quality and diversity of our craftsmanship. From contemporary living spaces to classic office interiors, each project reflects our commitment to excellence and our clients' unique vision. We take pride in transforming spaces across Lagos, delivering interiors that combine beauty, functionality, and lasting value.</p>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.pexels.com/photos/6579999/pexels-photo-6579999.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Interior project showcase">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.pexels.com/photos/20019416/pexels-photo-20019416.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Luxurious living space">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://images.pexels.com/photos/10029881/pexels-photo-10029881.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Custom furniture showcase">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="why-choose">
+        <div class="container">
+            <h2 style="text-align: center;">Why Choose So-juicy</h2>
+            <div class="cards-grid">
+                <div class="card">
+                    <h3>Quality Manufacturing</h3>
+                    <p>We manufacture our furniture and finishings in-house, ensuring complete quality control and competitive pricing without compromising on excellence.</p>
+                </div>
+                <div class="card">
+                    <h3>Expert Craftsmanship</h3>
+                    <p>Our skilled team brings years of experience and passion to every project, delivering superior workmanship that stands the test of time.</p>
+                </div>
+                <div class="card">
+                    <h3>Custom Solutions</h3>
+                    <p>No two spaces are alike. We create bespoke solutions tailored to your specific needs, style preferences, and budget.</p>
+                </div>
+                <div class="card">
+                    <h3>Comprehensive Service</h3>
+                    <p>From initial consultation to final installation, we handle every aspect of your interior project, providing a seamless, stress-free experience.</p>
+                </div>
+                <div class="card">
+                    <h3>Trusted by Lagos Residents</h3>
+                    <p>Located in the vibrant Ibeju Lekki community, we've built our reputation on reliability, integrity, and customer satisfaction.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" style="background: #fff;">
+        <div class="container">
+            <div class="centered-section">
+                <h2>Visit Our Showroom</h2>
+                <p>Ready to transform your space? Visit our showroom to see our quality finishings and furnishings firsthand, discuss your project with our expert team, and discover how So-juicy Interior Hub and More can bring your interior vision to life.</p>
+                <div class="contact-info">
+                    <p><strong>Location:</strong><br>Shop 3 Midwestern shopping complex golf course road lakowe lakes Ibeju lekki Lagos State</p>
+                    <p><strong>Phone:</strong><br><a href="tel:08132265208">08132265208</a></p>
+                    <p><strong>Hours:</strong><br>Monday to Saturday, 9:00 AM - 6:00 PM</p>
+                    <p style="margin-top: 2rem;">We serve clients across Lagos State and beyond. Contact us today for a consultation, quote, or to schedule a showroom visit. Let's create something beautiful together.</p>
+                    <a href="https://wa.me/2348132265208" class="btn-primary" style="margin-top: 1.5rem;">Chat on WhatsApp</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 So-juicy Interior Hub and More. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/2348132265208" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+        <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+            <path d="M16 0c-8.837 0-16 7.163-16 16 0 2.825 0.737 5.607 2.137 8.048l-2.137 7.952 7.933-2.127c2.42 1.37 5.173 2.127 8.067 2.127 8.837 0 16-7.163 16-16s-7.163-16-16-16zM16 29.467c-2.482 0-4.908-0.646-7.07-1.87l-0.507-0.292-5.247 1.407 1.407-5.247-0.292-0.507c-1.224-2.162-1.87-4.588-1.87-7.070 0-7.794 6.34-14.133 14.133-14.133s14.133 6.34 14.133 14.133c0 7.794-6.34 14.133-14.133 14.133zM21.933 18.507c-0.293-0.147-1.731-0.854-2-0.951s-0.464-0.147-0.659 0.147-0.757 0.951-0.927 1.146c-0.171 0.195-0.342 0.22-0.635 0.073s-1.239-0.457-2.359-1.455c-0.872-0.777-1.461-1.737-1.632-2.030s-0.018-0.451 0.128-0.597c0.131-0.131 0.293-0.342 0.439-0.513s0.195-0.293 0.293-0.488c0.098-0.195 0.049-0.366-0.024-0.513s-0.659-1.588-0.903-2.177c-0.238-0.573-0.479-0.495-0.659-0.504-0.171-0.009-0.366-0.011-0.561-0.011s-0.513 0.073-0.781 0.366c-0.269 0.293-1.024 1.001-1.024 2.441s1.048 2.833 1.194 3.028c0.147 0.195 2.065 3.153 5.003 4.421 0.699 0.302 1.244 0.482 1.668 0.617 0.702 0.224 1.341 0.192 1.846 0.117 0.563-0.084 1.731-0.708 1.975-1.391s0.244-1.269 0.171-1.391c-0.073-0.122-0.269-0.195-0.561-0.342z"/>
+        </svg>
+    </a>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+        const mobileMenu = document.querySelector('.mobile-menu');
+
+        if (mobileMenuBtn && mobileMenu) {
+            mobileMenuBtn.addEventListener('click', () => {
+                mobileMenuBtn.classList.toggle('active');
+                mobileMenu.classList.toggle('active');
+            });
+
+            // Close mobile menu when clicking a link
+            const mobileLinks = mobileMenu.querySelectorAll('a');
+            mobileLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                    mobileMenuBtn.classList.remove('active');
+                    mobileMenu.classList.remove('active');
+                });
+            });
+        }
+    </script>
+</body>
+</html>
