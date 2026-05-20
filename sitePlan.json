@@ -1,56 +1,56 @@
 {
-  "businessName": "So-juicy Interior Hub and More",
-  "industry": "Interior Design & Manufacturing",
-  "tone": "warm, professional, quality-focused",
-  "tagline": "Crafting Beautiful Spaces with Premium Finishings & Furnishings",
+  "businessName": "Blessed Gift Insurance Brokers Limited",
+  "industry": "Financial Services - Insurance",
+  "tone": "formal-professional-trustworthy",
+  "tagline": "Your Trusted Partner in Comprehensive Risk Management and Insurance Solutions",
   "sections": [
     {
       "id": "hero",
       "name": "Hero",
-      "copy": "Transform Your Space with So-juicy Interior Hub and More. Premium finishings, bespoke furnishings, and complete interior solutions manufactured to perfection. Serving homes and businesses across Lagos with quality craftsmanship you can trust.",
-      "imagePrompt": "Luxurious modern Nigerian living room interior with elegant custom furniture, beautiful wall finishes, ambient lighting, floor-to-ceiling windows showing Lagos skyline, rich textures, warm golden hour lighting, photorealistic, professional interior photography",
+      "copy": "Welcome to Blessed Gift Insurance Brokers Limited\n\nSecuring Your Future, Protecting Your Assets\n\nAs a leading insurance brokerage firm in Lagos, we provide comprehensive risk management solutions tailored to individuals and businesses across Nigeria. With expertise spanning general insurance, life assurance, and pension administration, we are committed to safeguarding what matters most to you.\n\nGet a Free Insurance Quote Today",
+      "imagePrompt": "Professional modern Nigerian insurance office reception with sleek glass walls, contemporary furniture, diverse business professionals consulting over documents, warm natural lighting, Lagos cityscape visible through windows, confident atmosphere conveying trust and financial security",
       "layout": "centered"
     },
     {
       "id": "about",
       "name": "About Us",
-      "copy": "So-juicy Interior Hub and More is a leading manufacturer of premium interior finishings and furnishings based in the heart of Ibeju Lekki, Lagos. We specialize in creating beautiful, functional spaces through our comprehensive range of interior solutions. From custom furniture manufacturing to expert finishing services, we bring your vision to life with exceptional craftsmanship and attention to detail. Our experienced team combines traditional techniques with modern design trends to deliver interiors that reflect your unique style and meet the highest quality standards. Whether you're furnishing a new home, renovating your office, or completing a commercial project, we provide end-to-end solutions that transform ordinary spaces into extraordinary environments.",
-      "imagePrompt": "Professional Nigerian workshop showing skilled craftsmen manufacturing custom furniture, modern woodworking equipment, organized materials, quality finishes on display, bright natural lighting, clean industrial space, photorealistic documentation style",
+      "copy": "About Blessed Gift Insurance Brokers Limited\n\nBlessed Gift Insurance Brokers Limited (trading as Blessed Gift Risk Solutions Co) is a licensed insurance brokerage firm dedicated to providing exceptional risk management and insurance solutions to clients across Nigeria.\n\nWith deep roots in the financial services industry and pension fund administration, our leadership brings decades of experience in understanding and protecting the financial well-being of individuals and corporate organizations.\n\nOur Mission: To deliver innovative, client-focused insurance solutions that provide peace of mind and financial security for every stage of life.\n\nOur Vision: To be the most trusted insurance brokerage firm in Nigeria, recognized for integrity, expertise, and unwavering commitment to client satisfaction.\n\nWhy Choose Us:\n\n• Licensed and regulated insurance brokerage\n• Expertise in pension fund administration\n• Independent advice from multiple insurance providers\n• Personalized service and dedicated support\n• Deep understanding of the Nigerian insurance landscape\n• Strategic location in the growing Ibeju-Lekki corridor\n\nAt Blessed Gift, we don't just sell insurance policies—we build lasting relationships founded on trust, transparency, and exceptional service delivery.",
+      "imagePrompt": "Professional Nigerian insurance broker in business attire shaking hands with satisfied client in modern Lagos office, documents and digital tablet on desk, certificates on wall, warm professional lighting, atmosphere of trust and partnership",
       "layout": "split"
     },
     {
       "id": "services",
       "name": "Our Services",
-      "copy": "Custom Furniture Manufacturing - Handcrafted pieces tailored to your exact specifications, from bedroom sets and dining furniture to office solutions and storage units. Every piece is built to last with premium materials and expert craftsmanship.\n\nInterior Finishings - Complete finishing services including wall treatments, flooring solutions, ceiling designs, lighting installations, and decorative elements that add character and elegance to any space.\n\nFurnishings & Décor - Curated selection of quality furnishings, soft furnishings, window treatments, and decorative accessories to complete your interior design vision.\n\nSpace Planning & Design Consultation - Professional guidance to maximize your space potential, from initial concept to final installation, ensuring functionality meets aesthetics.\n\nCommercial & Residential Projects - Comprehensive interior solutions for homes, offices, hotels, restaurants, and retail spaces across Lagos and beyond.",
-      "imagePrompt": "Elegant showroom display featuring various custom furniture pieces, beautiful interior finishes, fabric swatches, material samples, modern Nigerian home décor items, well-lit professional photography, organized and inviting atmosphere",
-      "layout": "cards"
-    },
-    {
-      "id": "gallery",
-      "name": "Our Work",
-      "copy": "Explore our portfolio of completed projects showcasing the quality and diversity of our craftsmanship. From contemporary living spaces to classic office interiors, each project reflects our commitment to excellence and our clients' unique vision. We take pride in transforming spaces across Lagos, delivering interiors that combine beauty, functionality, and lasting value.",
-      "imagePrompt": "Collage of stunning Nigerian interior spaces: modern kitchen with custom cabinetry, elegant bedroom with bespoke furniture, sophisticated office with quality finishes, luxury living room, all showing high-end craftsmanship, natural lighting, photorealistic interior photography",
+      "copy": "Comprehensive Insurance & Risk Management Solutions\n\nGeneral Insurance\nProtect your assets with comprehensive coverage including motor insurance, property insurance, fire and special perils, burglary insurance, goods-in-transit, marine insurance, and engineering insurance. We work with Nigeria's leading underwriters to secure the best rates and coverage for your needs.\n\nLife Assurance\nSecure your family's future with life insurance policies, education plans, mortgage protection, critical illness cover, and investment-linked insurance products designed to build wealth while providing protection.\n\nCorporate Insurance Solutions\nTailored insurance packages for businesses including group life assurance, employee compensation insurance (WAPIC), professional indemnity, directors and officers liability, public liability, and comprehensive business protection.\n\nPension & Retirement Planning\nLeveraging our expertise in pension fund administration, we provide strategic guidance on retirement planning, pension transfers, annuities, and long-term wealth accumulation strategies.\n\nRisk Assessment & Management\nComprehensive risk analysis, insurance audits, claims management support, and ongoing policy reviews to ensure your coverage remains optimal as your circumstances evolve.\n\nInsurance Advisory Services\nIndependent, unbiased advice to help you navigate Nigeria's insurance market, compare policies from multiple providers, and make informed decisions that align with your financial goals.\n\nEvery client receives personalized attention and customized solutions. Contact us today for a complimentary insurance review.",
+      "imagePrompt": "Grid layout of Nigerian insurance services: professional car with insurance document, modern Lagos family home, business office building, happy Nigerian family, Nigerian business people in meeting, all images bright, professional, representing security and protection",
       "layout": "grid"
     },
     {
-      "id": "why-choose",
-      "name": "Why Choose So-juicy",
-      "copy": "Quality Manufacturing - We manufacture our furniture and finishings in-house, ensuring complete quality control and competitive pricing without compromising on excellence.\n\nExpert Craftsmanship - Our skilled team brings years of experience and passion to every project, delivering superior workmanship that stands the test of time.\n\nCustom Solutions - No two spaces are alike. We create bespoke solutions tailored to your specific needs, style preferences, and budget.\n\nComprehensive Service - From initial consultation to final installation, we handle every aspect of your interior project, providing a seamless, stress-free experience.\n\nTrusted by Lagos Residents - Located in the vibrant Ibeju Lekki community, we've built our reputation on reliability, integrity, and customer satisfaction.",
-      "imagePrompt": "Close-up shots of quality craftsmanship: hands working on fine furniture details, premium wood finishes, precise joinery, quality materials, Nigerian artisan at work, professional workshop environment, warm natural lighting, documentary photography style",
+      "id": "contact",
+      "name": "Contact Us",
+      "copy": "Get in Touch with Blessed Gift Insurance Brokers\n\nReady to secure your future? Our team of experienced insurance professionals is here to help.\n\nVisit Our Office:\nShop 3, Midwestern Shopping Complex\nGolf Course Road, Lakowe Lakes\nIbeju-Lekki, Lagos State\nNigeria\n\nCall Us:\n+234 813 226 5208\n\nEmail:\ninfo@blessedgift.org\n\nBusiness Hours:\nMonday - Friday: 8:00 AM - 5:00 PM\nSaturday: 9:00 AM - 2:00 PM\nSunday: Closed\n\nSchedule a Consultation:\nWhether you need personal insurance, corporate coverage, or pension advisory services, we're here to provide expert guidance. Click the button below to chat with us on WhatsApp or fill out our contact form.\n\nServing clients across Lagos State and throughout Nigeria with professional insurance brokerage services you can trust.",
+      "imagePrompt": "Modern Nigerian insurance office storefront in Lakowe Lakes shopping complex, professional signage, welcoming entrance with glass doors, tropical landscaping, blue sky, professional yet approachable atmosphere, Lagos architectural style",
+      "layout": "default"
+    },
+    {
+      "id": "testimonials",
+      "name": "Client Testimonials",
+      "copy": "What Our Clients Say\n\n\"Blessed Gift Insurance Brokers provided exceptional service when I needed motor insurance for my new vehicle. Their team explained all my options clearly and secured excellent coverage at a competitive rate. Highly professional!\"\n— Mr. Oluwaseun A., Lekki\n\n\"As a business owner, finding the right insurance coverage was overwhelming until I met the team at Blessed Gift. They conducted a thorough risk assessment and designed a comprehensive package that protects my business without breaking the bank.\"\n— Mrs. Chidinma O., Victoria Island\n\n\"Their expertise in pension planning has been invaluable. The advice I received has given me confidence about my retirement future. True professionals who genuinely care about their clients.\"\n— Engr. Tunde K., Ajah\n\n\"I appreciate their transparency and honesty. Unlike other brokers, they take time to explain policy details and ensure I understand exactly what I'm paying for. Blessed Gift lives up to their name!\"\n— Dr. Amaka N., Ibeju-Lekki\n\nJoin hundreds of satisfied clients who trust Blessed Gift Insurance Brokers for their insurance and risk management needs.",
+      "imagePrompt": "Diverse group of satisfied Nigerian professionals and families smiling, professional business setting mixed with family environments, authentic happy expressions, modern Lagos lifestyle, trustworthy and relatable atmosphere",
       "layout": "cards"
     },
     {
-      "id": "contact",
-      "name": "Visit Our Showroom",
-      "copy": "Ready to transform your space? Visit our showroom to see our quality finishings and furnishings firsthand, discuss your project with our expert team, and discover how So-juicy Interior Hub and More can bring your interior vision to life.\n\nShop 3 Midwestern shopping complex golf course road lakowe lakes Ibeju lekki Lagos State\n\nCall us: 08132265208\n\nOpen Monday to Saturday, 9:00 AM - 6:00 PM\n\nWe serve clients across Lagos State and beyond. Contact us today for a consultation, quote, or to schedule a showroom visit. Let's create something beautiful together.",
-      "imagePrompt": "Inviting storefront of modern Nigerian interior shop at Midwestern shopping complex, professional signage, welcoming entrance, glimpse of showroom interior with furniture displays, late afternoon golden light, Lagos commercial architecture, photorealistic",
-      "layout": "centered"
+      "id": "faq",
+      "name": "Frequently Asked Questions",
+      "copy": "Your Insurance Questions Answered\n\nWhat is an insurance broker?\nAn insurance broker is a licensed professional who acts as your advocate in the insurance market. Unlike agents who represent specific insurance companies, brokers work for you—comparing policies from multiple insurers to find the best coverage at the most competitive rates.\n\nWhy should I use Blessed Gift Insurance Brokers?\nWe provide independent, unbiased advice, access to multiple insurance providers, expert claims support, personalized service, and ongoing policy management. Our expertise in pension administration also gives us unique insights into long-term financial planning.\n\nWhat types of insurance do you offer?\nWe broker all classes of insurance including motor, property, life assurance, health, travel, marine, professional indemnity, group life, and specialized corporate insurance solutions.\n\nHow much do your services cost?\nOur brokerage services are typically commission-based, meaning you pay no additional fees—we're compensated by insurance companies when policies are placed. Our priority is finding you the right coverage, not maximizing commission.\n\nHow quickly can I get insurance coverage?\nFor most policies, we can arrange coverage within 24-48 hours once we have your information and required documentation. Emergency coverage can often be arranged same-day.\n\nDo you handle insurance claims?\nAbsolutely! We provide dedicated claims support, liaising with insurers on your behalf to ensure smooth, prompt settlement of legitimate claims.\n\nAre you licensed?\nYes, Blessed Gift Insurance Brokers Limited is fully licensed and regulated by relevant Nigerian authorities to operate as an insurance brokerage firm.\n\nCan you help with both personal and business insurance?\nYes, we serve individuals, families, small businesses, and large corporations across all sectors of the Nigerian economy.\n\nStill have questions? Contact us today—we're here to help!",
+      "imagePrompt": "Professional Nigerian insurance advisor explaining documents to attentive client across desk, modern office setting, reassuring atmosphere, digital screens with insurance information, bright natural lighting, clear communication depicted",
+      "layout": "default"
     }
   ],
   "contact": {
-    "phone": "08132265208",
-    "email": "",
-    "address": "Shop 3 Midwestern shopping complex golf course road lakowe lakes Ibeju lekki Lagos State",
+    "phone": "+234 813 226 5208",
+    "email": "info@blessedgift.org",
+    "address": "Shop 3, Midwestern Shopping Complex, Golf Course Road, Lakowe Lakes, Ibeju-Lekki, Lagos State, Nigeria",
     "whatsapp": "https://wa.me/2348132265208"
   }
 }
